@@ -1,0 +1,4 @@
+lighter: #fff;
+light: rgb(173, 200, 194);
+dark: rgb(98, 143, 133);
+darkest: black;

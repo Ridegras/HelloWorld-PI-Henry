@@ -1,0 +1,36 @@
+.pagesList {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    margin-top: 2%;
+}
+
+.num {
+    transition: .2s;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    font-weight: bolder;
+    color: rgb(98, 143, 133);
+    margin: 0 3px;
+}
+
+.num:hover {
+    cursor: pointer;
+    background-color: rgb(98, 143, 133);
+    color: white;
+}
+
+.active {
+    transition: .2s;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    font-weight: bolder;
+    margin: 0 3px;
+    background-color: rgb(98, 143, 133);
+    color: white;
+}

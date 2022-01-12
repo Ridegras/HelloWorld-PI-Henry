@@ -1,0 +1,50 @@
+.container {
+    height: 100%;
+    width: 63%;
+    display: flex;
+    align-items: center;
+}
+
+.input {
+    height: 50%;
+    width: 80%;
+    border: none;
+    background-color: rgb(173, 200, 194);
+    border-radius: 30px;
+    padding-left: 4%;
+    color: #fff;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: bolder;
+}
+
+.input::placeholder {
+    color: #fff;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: bolder;
+}
+
+.input:focus {
+    outline: none;
+    background-color: rgb(98, 143, 133);
+}
+
+.submit {
+    background-color: rgb(98, 143, 133);
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    transition: 1s;
+    cursor: pointer;
+    margin-left: 3%;
+}
+
+.button {
+    width: 70%;
+}
+
+.submit:hover {
+    transform: rotate(-90deg);
+}
